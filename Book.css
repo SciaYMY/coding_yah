@@ -1,0 +1,50 @@
+h1 {
+  font-size : 45px;
+  text-align : center;
+  border-bottom : 2px solid gray;
+  margin : 0px;
+  padding : 15px;
+}
+ol {
+  border-right : 2px solid gray;
+  width : 85px;
+  margin : 0px;
+  padding : 10px;
+  padding-left : 40px;
+  padding-top : 20px;
+}
+
+#grid {
+  display : grid;
+  grid-template-columns : 150px 1fr;
+}
+#article {
+  padding-left : 20px;
+}
+
+@media (max-width : 600px) {
+  #grid {
+    display : block;
+  }
+  ol {
+    border-right : none;
+    width : auto;
+    padding : 15px;
+  }
+  li {
+    display : inline-block;
+    width : 100px;
+    border : 1px solid black;
+    text-align : center;
+    margin : 0 10px;
+    padding : 5px 0;
+  }
+}
+
+p:after {
+  color : green;
+  content : "by Mazy"
+}
+p:first-letter {
+  font-size : 2em;
+}
