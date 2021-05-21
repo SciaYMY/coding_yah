@@ -41,7 +41,7 @@ ol {
   }
 }
 
-p:after {
+div p:after {
   color : green;
   content : "by Mazy"
 }
